@@ -14,5 +14,8 @@ app.get('/listcities', (req, res)=>{
   res.header('Access-Control-Allow-Headers', "*")
     res.send({data: listNames(trie, req.query.prefix)});
 });
+app.get('/', (req, res)=>{
+    res.send("Use '/listcities?prefix=<your-search-string>' to get a list of cities.");
+});
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
