@@ -26,11 +26,12 @@ Like an autocomplete input box. Input a string and it would return 10 cities wit
         "countryName":"Canada",
         "countryCode":"CA"
     },
-    {"name":"Vancouver",
-    "lng":"-122.66149",
-    "lat":"45.63873",
-    "countryName":"United States",
-    "countryCode":"US"
+    {
+        "name":"Vancouver",
+        "lng":"-122.66149",
+        "lat":"45.63873",
+        "countryName":"United States",
+        "countryCode":"US"
     }]
 }
 ```
