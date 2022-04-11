@@ -16,7 +16,8 @@ Like an autocomplete input box. Input a string and it would return 10 cities wit
 `https://city-trie-route.herokuapp.com/listcities?prefix=vancouver`
 
 `"lat"` and `"lng"` are the latitudes and longitudes of the cities respectively.
-`
+
+```
 { "data":
     [{
         "name":"Vancouver",
@@ -32,4 +33,4 @@ Like an autocomplete input box. Input a string and it would return 10 cities wit
     "countryCode":"US"
     }]
 }
-`
+```
